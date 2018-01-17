@@ -9,15 +9,37 @@
     <Import_RootNamespace>CompetenceActivities</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)MainPage.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\LevelPage.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\BonusFormBuilder.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\LevelContent.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
-      <DependentUpon>App.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)CompetenceActivitiesRoute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Models\BonusGoalForm.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Node.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Route.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\BonusLevelPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\LevelPage.xaml.cs">
+      <DependentUpon>LevelPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\BonusFormBuilder.xaml.cs">
+      <DependentUpon>BonusFormBuilder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\BearTrack.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\LevelContent.xaml.cs">
+      <DependentUpon>LevelContent.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)Views\LevelContent.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Helpers\" />
   </ItemGroup>
 </Project>

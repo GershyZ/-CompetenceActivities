@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompetenceActivities.Androi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompetenceActivities.iOS", "CompetenceActivities\CompetenceActivities.iOS\CompetenceActivities.iOS.csproj", "{6412EE94-B500-4A0C-AD95-AA2297C60049}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CompetenceActivities", "CompetenceActivities\CompetenceActivities\CompetenceActivities.shproj", "{A0965231-41EF-4A03-B12E-92141A445739}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CompentenceActivities", "CompetenceActivities\CompetenceActivities\CompentenceActivities.shproj", "{A0965231-41EF-4A03-B12E-92141A445739}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
