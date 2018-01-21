@@ -25,7 +25,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>CompetenceActivities</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.yourcompany.CompetenceActivities</string>
+	<string>com.gezebo.competenceactivities</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>CFBundleIconFiles</key>
